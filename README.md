@@ -11,19 +11,19 @@ Allotment Based functions:
 For generating weights on allotment, we carry out geometrical operations on polyshapes in MATLAB. The functions below involve basic math operations of computing intersections 
 between lines and a polyshape(square region), and then constructing polyshapes from intersections etc.
 
--CC.m , tangent.m
+- CC.m , tangent.m
 
--CC_plot.m
+- CC_plot.m
 
--constructpoly.m
+- constructpoly.m
 
--dividevshape.m
+- dividevshape.m
 
--getdist_weight.m
+- getdist_weight.m
 
--getintersection.m
+- getintersection.m
 
--allotment_weights.m
+- allotment_weights.m
 
 Non - Holonomic Mapping functions: 
 
@@ -42,3 +42,8 @@ To compute the non-holonomic controls given an acceptable holonomic velocity.
 Remaining functions: 
 
 All the remaining functions are to define the parameters, plot the simulations and the optimization framework is included in getControls.m
+
+_________________________________________________________________________________________________________________________________________________________________
+
+To run the simulation , go to run.m. At the top of the document, there are sample confirations where in an agents start, goal , and desired velocity max are specified for 
+each agent in the configuration. 
