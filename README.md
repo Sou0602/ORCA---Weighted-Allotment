@@ -49,12 +49,14 @@ To run the simulation , go to run.m. At the top of the document, there are sampl
 each agent in the configuration. 
 
 As a default case, the first configuration is uncommented. To run other configurations, make sure to comment the previous block and uncomment the block of configuration that you are trying to run. 
+
 In cases where, you are using a pre-saved configuration and not starting from the start,name the configrations are "agents1", instead of the default setting "agents" and then uncomment the block shown below(at the end of all the configurations):
+
     %{
-for i = 1:length(agents)
+ for i = 1:length(agents)
     agents1(i).position = agents(i).position;
     agents1(i).velocity = agents(i).velocity;
-end
+ end
     clear agents;
     agents = agents1;
     clear agents1;
