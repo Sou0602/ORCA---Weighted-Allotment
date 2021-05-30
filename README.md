@@ -33,11 +33,11 @@ To compute the non-holonomic controls given an acceptable holonomic velocity.
 
 - theta.m , theta_in.m , x_fren.m , y_fren.m
 
--vel-prof.m
+- vel-prof.m
 
--curve_generate.m
+- curve_generate.m
 
--optimize_spiral.m
+- optimize_spiral.m
 
 Remaining functions: 
 
